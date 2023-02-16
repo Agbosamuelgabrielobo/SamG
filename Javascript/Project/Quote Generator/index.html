@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap (1).css">
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
-<body>
-    <Button type="submit" id="btn" onclick="quote()">Generate Quote</Button>
-    <p id="content"></p>
-    <p id="author"></p>
+<body class="head">
+    <div class="body">
+        <Button class="btn btn-primary" type="submit" id="btn" onclick="quote()">Generate Quote</Button>
+        <p id="content" class="para1"></p>
+        <p id="author" class="para2"></p>
+        <p id="err" class="para3"></p>
+    </div>
     <script src="index.js"></script>
 </body>
 </html>

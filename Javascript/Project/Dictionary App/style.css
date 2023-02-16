@@ -1,0 +1,17 @@
+.head{
+    background-color: orange;
+}
+.align{
+    background-color:black ;
+}
+.d1{
+    text-align: center;
+    color:white;
+    font-weight: bold;
+}
+.d2{
+    color: white;
+}
+.d{
+    font-style: italic;
+}
